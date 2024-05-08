@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" modified="2024-05-08T04:18:03.623Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="w1Ko57tNTiZEP-WAUkru" version="24.3.1" type="github">
+  <diagram name="Page-1" id="a4R6kFN4Z_s5PRxvn_Zc">
+    <mxGraphModel dx="794" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aHLYUKsnwVdBvVgVbHym-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aHLYUKsnwVdBvVgVbHym-1" target="aHLYUKsnwVdBvVgVbHym-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aHLYUKsnwVdBvVgVbHym-1" value="User Choose the cloud provider from where he wants to get equivalent of and enter the instance type" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="110" width="310" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="aHLYUKsnwVdBvVgVbHym-2" value="&lt;ol&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;I will call Describe Instance Type API from AWS to get the properties of that particular instance type.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Call azure &quot;Resource SKU - list&quot; API to filter the list according to the properties of above particular instance type(mainly we have to filter out with Memory, vCPU, maxNetworkInterface). This will give the equivalent instance type in azure.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Call GCP &quot;List services SKU API&quot; and filer the list according to the&amp;nbsp;guestCpus, memorymb field. This will give the equivalent instance type in GCP.&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Call the pricing API of azure &quot;azure retail price&quot; to get the pricing of equivalent instance type for particular location and OS.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Call the pricing API of AWS &quot;AWS price list API&quot; to get the price of the entered instance type.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Call the catalog pricing API to get the price of equivalent instance type.&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="222.5" y="270" width="465" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="aHLYUKsnwVdBvVgVbHym-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aHLYUKsnwVdBvVgVbHym-5" target="aHLYUKsnwVdBvVgVbHym-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aHLYUKsnwVdBvVgVbHym-5" value="User Choose the cloud provider from where he wants to get equivalent of and enter the instance type" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="100" width="310" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="aHLYUKsnwVdBvVgVbHym-6" value="&lt;ol&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;I will call Virtual Machine List Available size from Azure to get the properties of that particular instance type.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Call AWS &quot;Describe Instance Type&quot; API to filter the list according to the properties of above particular instance type(mainly we have to filter out with Memory, vCPU, maxNetworkInterface). This will give the equivalent instance type in azure.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Call GCP &quot;List services SKU API&quot; and filer the list according to the&amp;nbsp;guestCpus, memorymb field. This will give the equivalent instance type in GCP.&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Call the pricing API of azure &quot;azure retail price&quot; to get the pricing of equivalent instance type for particular location and OS.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Call the pricing API of AWS &quot;AWS price list API&quot; to get the price of the entered instance type.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Call the catalog pricing API to get the price of equivalent instance type.&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="280" width="465" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="aHLYUKsnwVdBvVgVbHym-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aHLYUKsnwVdBvVgVbHym-8" target="aHLYUKsnwVdBvVgVbHym-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aHLYUKsnwVdBvVgVbHym-8" value="User Choose the cloud provider from where he wants to get equivalent of and enter the instance type" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="100" width="310" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="aHLYUKsnwVdBvVgVbHym-9" value="&lt;ol&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;I will call machine type API from GCP to get the properties of that particular instance type.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Call AWS &quot;Describe Instance Type&quot; API to filter the list according to the properties of above particular instance type(mainly we have to filter out with Memory, vCPU, maxNetworkInterface). This will give the equivalent instance type in azure.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Call azure &quot;Resource SKU - list&quot; API to filter the list according to the properties of above particular instance type(mainly we have to filter out with Memory, vCPU, maxNetworkInterface). This will give the equivalent instance type in azure.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Call the pricing API of azure &quot;azure retail price&quot; to get the pricing of equivalent instance type for particular location and OS.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Call the pricing API of AWS &quot;AWS price list API&quot; to get the price of the entered instance type.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Call the catalog pricing API to get the price of equivalent instance type.&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="280" width="465" height="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
