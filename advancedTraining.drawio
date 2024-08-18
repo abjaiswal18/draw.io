@@ -478,6 +478,9 @@
         <mxCell id="4BYogz1DlvUj1lyPhDPs-14" value="Monitor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4120" y="275" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="4BYogz1DlvUj1lyPhDPs-23" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="3010" y="-480" width="30" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
